@@ -74,6 +74,11 @@ nav > .link:hover {
 
     transition: opacity 1.5s ease-in-out;
 }
+@media (width <= 500){
+    .hero-title{
+        font-size: 1rem;
+    }
+}
 .hero-title-show {
     filter: blur(2px);
     opacity: 1;
